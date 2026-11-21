@@ -39,7 +39,7 @@ Com que el pont USB de l'RP2040 pot desbordar el buffer en intentar pujar l'stub
 2. Posar l'ESP-12F en mode *bootloader* manualment (manté premut el botó **BOOT**, reinicia i deixa anar).
 3. Executa des de la terminal de comandes:
 ```bash
-esptool --port COM6 --baud 115200 --no-stub write_flash 0x0 el_teu_fitxer.bin
+esptool --port COM6 --baud 115200 --no-stub write-flash 0x0 el_teu_fitxer.bin
 
 ```
 
